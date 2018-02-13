@@ -1,0 +1,21 @@
+@import 'base/_fonts.scss';
+// @import '../libs/normalize.css';
+// @import 'vendors/_animate.scss';
+@import '../libs/slick/slick.css';
+@import '../libs/slick/slick-theme.css';
+@import 'base/_base.scss';
+// @import 'base/_sprite.scss';
+@import 'components/_buttons.scss';
+@import 'layouts/_header.scss';
+@import 'layouts/_what-is.scss';
+@import 'layouts/_how-work.scss';
+@import 'layouts/_why-use.scss';
+@import 'layouts/_remember.scss';
+
+@import 'layouts/_choose.scss';
+@import 'layouts/_subscribe.scss';
+
+@import 'layouts/_setting.scss';
+@import 'layouts/_footer.scss';
+
+@import 'base/_responsible.scss';

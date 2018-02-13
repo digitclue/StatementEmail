@@ -1,0 +1,125 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-how-work-1 {
+    width: 72px;
+    height: 45px;
+    background-position: -5px -5px;
+}
+
+.sprite-how-work-2 {
+    width: 66px;
+    height: 55px;
+    background-position: -87px -5px;
+}
+
+.sprite-how-work-3 {
+    width: 63px;
+    height: 63px;
+    background-position: -163px -5px;
+}
+
+.sprite-how-work-4 {
+    width: 64px;
+    height: 60px;
+    background-position: -236px -5px;
+}
+
+.sprite-how-work-5 {
+    width: 53px;
+    height: 57px;
+    background-position: -310px -5px;
+}
+
+.sprite-how-work-6 {
+    width: 67px;
+    height: 50px;
+    background-position: -373px -5px;
+}
+
+.sprite-logo {
+    width: 40px;
+    height: 40px;
+    background-position: -450px -5px;
+}
+
+.sprite-remember-1 {
+    width: 123px;
+    height: 155px;
+    background-position: -373px -65px;
+}
+
+.sprite-setting-up-1 {
+    width: 109px;
+    height: 109px;
+    background-position: -5px -230px;
+}
+
+.sprite-setting-up-2 {
+    width: 134px;
+    height: 103px;
+    background-position: -124px -230px;
+}
+
+.sprite-setting-up-3 {
+    width: 109px;
+    height: 105px;
+    background-position: -268px -230px;
+}
+
+.sprite-setting-up-4 {
+    width: 105px;
+    height: 105px;
+    background-position: -387px -230px;
+}
+
+.sprite-setting-up-5 {
+    width: 105px;
+    height: 105px;
+    background-position: -124px -345px;
+}
+
+.sprite-setting-up-6 {
+    width: 105px;
+    height: 105px;
+    background-position: -239px -345px;
+}
+
+.sprite-setting-up-7 {
+    width: 105px;
+    height: 105px;
+    background-position: -354px -345px;
+}
+
+.sprite-setting-up-8 {
+    width: 105px;
+    height: 105px;
+    background-position: -506px -5px;
+}
+
+.sprite-setting-up-9 {
+    width: 105px;
+    height: 103px;
+    background-position: -506px -120px;
+}
+
+.sprite-why-use-1 {
+    width: 168px;
+    height: 168px;
+    background-position: -5px -460px;
+}
+
+.sprite-why-use-2 {
+    width: 167px;
+    height: 167px;
+    background-position: -183px -460px;
+}
+
+.sprite-why-use-3 {
+    width: 169px;
+    height: 169px;
+    background-position: -360px -460px;
+}

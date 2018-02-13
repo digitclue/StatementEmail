@@ -1,0 +1,109 @@
+footer {
+  position: relative;
+
+  padding: 140px 0 160px;
+
+  text-align: center;
+
+  background-color: #f1f1f2;
+}
+footer ~ .content {
+  max-width: 400px;
+}
+
+.footer-title {
+  font-family: 'Tinos', serif;
+  font-size: 50px;
+  line-height: 65%;
+
+  margin-bottom: 60px;
+
+  color: #020f21;
+}
+.footer-title + a {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 35px;
+        display: block;
+        text-transform: none;
+        font-weight: 600;
+        color: #1667d4;
+        transition: color 0.3s linear 0.1s;
+        &:hover {
+            color: #010a17;
+            text-decoration: underline;
+        }
+}
+footer p {
+  font-size: 24px;
+
+  margin-bottom: 20px;
+  /*line-height: 65px;*/
+
+  color: #184787;
+}
+.footer-social {
+  margin-bottom: 75px;
+  padding-top: 10px;
+  font-size: 0;
+  & li {
+    margin: 0 20px;
+    display: inline-block;
+    transition: background-color 0.3s linear 0.1s;
+  }
+
+  & a.sprite {
+    display: block;
+    background-image: url(../img/footer_spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 40px;
+    height: 40px;
+    // transition: background-position 0.5s linear 0.1s;
+    &:hover {
+      background-image: url(../img/footer_spritesheet.png);
+    }
+  }
+.sprite-footer-1 {background-position: -5px -5px;}
+.sprite-footer-2 {background-position: -5px -55px;}
+.sprite-footer-3 {background-position: -5px -105px;}
+.sprite-footer-4 {background-position: -5px -155px;}
+.sprite-footer-5 {background-position: -5px -205px;}
+
+.sprite-footer-1:hover {background-position: -5px -255px;}
+.sprite-footer-2:hover {background-position: -5px -305px;}
+.sprite-footer-3:hover {background-position: -5px -355px;}
+.sprite-footer-4:hover {background-position: -5px -405px;}
+.sprite-footer-5:hover {background-position: -5px -455px;}
+  
+
+
+}
+
+.footer-wrap {
+  font-size: 0;
+}
+.footer-item {
+  font-size: 18px;
+  font-weight: 600;
+
+  display: inline-block;
+
+  width: 31.43%;
+
+  text-align: left;
+
+  color: #010a17;
+}
+.footer-item li {
+  display: block;
+
+  margin-bottom: 20px;
+}
+.footer-item:last-child {
+  width: 36.2%;
+}
+
+
+
+

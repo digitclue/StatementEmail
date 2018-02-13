@@ -1,0 +1,27 @@
+.top-line__menu {
+
+
+
+
+  & li {
+    display: inline-flex;
+
+    margin: 10px 20px;
+
+
+
+    & a {
+      display: block;
+
+      transition: color .5s linear .1s;
+
+      color: #fff;
+
+      font-size: 18px;
+      font-weight: 600;
+      &:hover {
+        color: #010a17;
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.remember {
+  padding: 60px 0;
+
+  background-color: #f1f1f2;
+
+
+  & .remember-wrap {
+    display: flex;
+    width: 690px;
+    position: relative;
+    margin: 0 auto;
+    justify-content: flex-end;
+    &:before {
+      position: absolute;
+      top: 25%;
+      left: 0%;
+
+      display: block;
+      content: '';
+
+      background: url('../img/spritesheet.png') no-repeat;
+
+      width: 123px;
+      height: 155px;
+      background-position: -373px -65px;
+    }
+  }
+  & .remember-wrap p {
+    font-size: 24px;
+    line-height: 38px;
+    position: relative;
+    max-width: 520px;
+    padding: 40px;
+
+    background-color: #fff;
+    color: #184787;
+  }
+  & .remember-wrap a {
+
+    line-height: 30px;
+    font-weight: 600;
+    color: #1667d4;
+    transition: color 0.3s linear 0.1s;
+    &:hover {
+      color: #010a17;
+      text-decoration: underline;
+    }
+  }
+}

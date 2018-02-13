@@ -1,0 +1,140 @@
+.setting-up
+{
+    padding: 90px 0;
+
+    text-align: center;
+
+    color: #fff;
+    background-color: #2e4883;
+& h2
+{
+    margin-bottom: 40px;
+}
+& h2 + p
+{
+    margin-bottom: 50px;
+}
+}
+.setting-up__wrap
+{
+    display: flex;
+  margin-top: 45px;
+    margin-bottom: 90px;
+
+    justify-content: space-around;
+}
+.setting-up__wrap + p
+{
+    font-size: 18px;
+    line-height: 35px;
+
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: left;
+    text-transform: uppercase;
+
+    color: #fff;
+}
+
+.setting-up__item
+{
+  width: 220px;
+  font-size: 16px;
+
+  line-height: 30px;
+  text-align: left;
+  padding-top: 140px;
+
+  position: relative;
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 15%;
+
+
+
+    background: url('../img/spritesheet.png') no-repeat;
+
+
+  }
+  &:nth-child(1):before {
+    background-position: -5px -230px;
+    width: 109px;
+    height: 109px;
+  }
+  &:nth-child(2):before {
+         width: 134px;
+         height: 103px;
+         background-position: -124px -230px;
+  }
+  &:nth-child(3):before {
+              width: 109px;
+              height: 105px;
+              background-position: -268px -230px;
+  }
+}
+
+.setting-up__social{
+    font-size: 0;
+
+    display: flex;
+
+    text-align: left;
+
+    justify-content: space-between;
+
+      & li
+    {
+        display: inline-flex;
+
+        //transition: background-color 0.3s linear 0.1s;
+
+        //background-color: #fff;
+
+
+    }
+    & a {
+      display: block;
+      width: 145px;
+      height: 145px;
+      border: 1px solid #cfcfd0;
+      background: url('../img/gmail.png') no-repeat;
+      transition: background-position 0.5s linear 0.3s;
+    }
+}
+
+.mail {
+  & a:nth-child(1) {
+    background-position: 0 0;
+    &:hover {
+      //background-position: 0px -145px;
+      background-image: none;
+      background-color: red;
+    }
+  }
+}
+
+.phone {
+  & a {
+  }
+}
+
+.manual {
+    & a {
+
+    }
+}
+
+
+/*&:hover:nth-child(1) {background-color: #D32E2A; border-color: transparent;}
+&:hover:nth-child(2){background-color: #0072c6; border-color: transparent;}
+&:hover:nth-child(3){background-color: #ffda00; border-color: transparent;}
+
+&:hover:nth-child(1){background-color: #53bc48; border-color: transparent;}
+&:hover:nth-child(2){background-color: #5e5e5e; border-color: transparent;}
+
+&:hover:nth-child(1) {background-color: #184787; border-color: transparent;}
+ */
+

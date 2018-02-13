@@ -1,0 +1,36 @@
+header {
+  background: #010a17 url(../img/bg_header.png) 0 0 no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.top-line {
+  padding: 23px 0 8px;
+
+  text-align: left;
+
+  background-color: rgba(66, 96, 137, .75);
+  box-shadow: 0 0 20px 10px rgba(128, 146, 172, .75) inset;
+  & .top-line__logo {
+    font-size: 0;
+
+    flex: 0 0 auto;
+  }
+}
+
+@import '../components/_top-line__menu.scss';
+@import '../components/_top-line__lng-select.scss';
+
+
+.header-text {
+  padding: 7.5% 0 11.7% 6.5%;
+
+  & p {
+    margin-bottom: 3%;
+
+    color: #fff;
+
+    font-size: 36px;
+    line-height: 53px;
+  }
+}
