@@ -38,28 +38,25 @@ footer p {
   font-size: 24px;
 
   margin-bottom: 20px;
-  /*line-height: 65px;*/
 
   color: #184787;
 }
 .footer-social {
   margin-bottom: 75px;
-  padding-top: 10px;
+
   font-size: 0;
   & li {
     margin: 0 20px;
-    display: inline-block;
+    display: inline-flex;
     transition: background-color 0.3s linear 0.1s;
   }
 
-  & a.sprite {
+  & .sprite {
     display: block;
-    background-image: url(../img/footer_spritesheet.png);
-    background-repeat: no-repeat;
-    display: block;
+    background: url(../img/footer_spritesheet.png) no-repeat;
     width: 40px;
     height: 40px;
-    // transition: background-position 0.5s linear 0.1s;
+    transition: background-position 0.5s linear 0.1s;
     &:hover {
       background-image: url(../img/footer_spritesheet.png);
     }
@@ -80,29 +77,28 @@ footer p {
 
 }
 
-.footer-wrap {
+.footer-map {
   font-size: 0;
-}
-.footer-item {
-  font-size: 18px;
-  font-weight: 600;
-
-  display: inline-block;
-
-  width: 31.43%;
-
+  display: flex;
   text-align: left;
+  justify-content: space-between;
 
-  color: #010a17;
+  & li {
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+    flex-wrap: wrap;
+    display: inline-flex;
+    
+    & a {
+      display: block;
+      width: 100%;
+      color: #010a17;
+      margin-bottom: 15px;
+    }
+  }
 }
-.footer-item li {
-  display: block;
 
-  margin-bottom: 20px;
-}
-.footer-item:last-child {
-  width: 36.2%;
-}
 
 
 

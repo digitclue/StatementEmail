@@ -1,0 +1,41 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-android {
+    width: 145px;
+    height: 290px;
+    background-position: -5px -5px;
+}
+
+.sprite-apple {
+    width: 145px;
+    height: 290px;
+    background-position: -160px -5px;
+}
+
+.sprite-gmail {
+    width: 145px;
+    height: 290px;
+    background-position: -315px -5px;
+}
+
+.sprite-manual {
+    width: 145px;
+    height: 290px;
+    background-position: -470px -5px;
+}
+
+.sprite-outlook {
+    width: 145px;
+    height: 290px;
+    background-position: -5px -305px;
+}
+
+.sprite-ukrnet {
+    width: 145px;
+    height: 290px;
+    background-position: -160px -305px;
+}
